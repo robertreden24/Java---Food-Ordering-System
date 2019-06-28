@@ -1,0 +1,4 @@
+Cheese Burger 1.99 0
+Chicken Burger 2.29 0
+Mushroom Burger 2.29 0
+Whopper Jr 3.99 0
