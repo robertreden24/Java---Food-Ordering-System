@@ -10,15 +10,18 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.util.InputMismatchException;
         
+//main function
 public class driver{
+    //throws FileNotFoundException if file can't be found
     public static void main(String[] args) throws FileNotFoundException{
+        //create Scanner object to take in user input
         Scanner sc = new Scanner(System.in);
         
         //create new file object
         File file = new File("/Users/elizabethgirlang/Downloads/javastock.txt");
         File file2 = new File("/Users/elizabethgirlang/Downloads/javastock2.txt");
         
-        //create scanner object for reading the file
+        //create Scanner object for reading the file
         Scanner scn = new Scanner(file);
         Scanner scn2 = new Scanner(file2);
         int opt;
